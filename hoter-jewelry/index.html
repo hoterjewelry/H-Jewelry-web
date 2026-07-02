@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoter Jewelry — Handcrafted Jewelry &amp; Restoration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&family=Heebo:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap header-inner">
+    <a href="#" class="logo">
+      <span class="logo-ring">H</span>
+      <span data-i18n="brand">Hoter <span>Jewelry</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav id="mainNav">
+      <ul>
+        <li><a href="#gallery" data-i18n="nav_work">Work</a></li>
+        <li><a href="#services" data-i18n="nav_services">Services</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle">עברית</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-ring"></div>
+  <div class="hero-ring inner"></div>
+  <div class="wrap hero-content">
+    <span class="eyebrow" data-i18n="hero_eyebrow">Handcrafted Since Day One</span>
+    <h1 data-i18n="hero_title">Every Piece Tells a Story</h1>
+    <p class="sub" data-i18n="hero_sub">Custom jewelry, expert repairs, and silver restoration — crafted with care, one piece at a time.</p>
+    <div class="hero-ctas">
+      <a href="#gallery" class="btn btn-primary" data-i18n="hero_cta_work">View the Work</a>
+      <a href="#contact" class="btn btn-ghost" data-i18n="hero_cta_contact">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<section class="tabs-section" id="gallery">
+  <div class="wrap">
+    <div class="section-heading">
+      <h2 data-i18n="gallery_title">Browse by Category</h2>
+    </div>
+    <div class="tabs" id="tabs">
+      <button class="tab active" data-filter="all" data-i18n="tab_all">All</button>
+      <button class="tab" data-filter="earrings" data-i18n="tab_earrings">Earrings</button>
+      <button class="tab" data-filter="necklaces" data-i18n="tab_necklaces">Necklaces</button>
+      <button class="tab" data-filter="rings" data-i18n="tab_rings">Rings</button>
+      <button class="tab" data-filter="fixing" data-i18n="tab_fixing">Fixing</button>
+      <button class="tab" data-filter="silver" data-i18n="tab_silver">Silver Polishing</button>
+    </div>
+    <div class="gallery" id="galleryGrid">
+      <!-- injected by js/main.js from content/projects.json -->
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="section-heading">
+      <h2 data-i18n="services_title">Services</h2>
+    </div>
+    <div class="service-grid">
+      <div class="service">
+        <div class="logo-ring">1</div>
+        <h3 data-i18n="service1_title">Custom Jewelry Making</h3>
+        <p data-i18n="service1_desc">From sketch to finished piece, designed around you and made by hand.</p>
+      </div>
+      <div class="service">
+        <div class="logo-ring">2</div>
+        <h3 data-i18n="service2_title">Repairs &amp; Restoration</h3>
+        <p data-i18n="service2_desc">Clasps, resizing, and structural repair for the pieces you already love.</p>
+      </div>
+      <div class="service">
+        <div class="logo-ring">3</div>
+        <h3 data-i18n="service3_title">Silver Polishing</h3>
+        <p data-i18n="service3_desc">Bringing tarnished silver — jewelry, trays, candlesticks — back to its original shine.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-ring">H</span>
+          <span data-i18n="brand">Hoter <span>Jewelry</span></span>
+        </a>
+        <p data-i18n="footer_tagline">Handcrafted jewelry, repairs, and silver restoration. By appointment.</p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_contact_heading">Contact</h4>
+        <ul>
+          <li data-i18n="footer_phone">Phone: 054-565-1012</li>
+          <li data-i18n="footer_email">Email: Hoterjewelry@gmail.com</li>
+          <li data-i18n="footer_location">Location: [City, by appointment]</li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_follow_heading">Follow</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/hoter_jewelry/" target="_blank" rel="noopener" data-i18n="footer_instagram">Instagram: @hoter_jewelry</a></li>
+          <li><a href="https://www.facebook.com/100093082583434/" target="_blank" data-i18n="footer_facebook">Facebook: H Jewelry</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copy">© 2026 Hoter Jewelry. All rights reserved.</span>
+      <span data-i18n="footer_made">Handmade, always.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Story modal: opened when a gallery card is clicked -->
+<div class="modal" id="storyModal">
+  <div class="modal-panel">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-media">
+      <img id="modalImg" src="" alt="">
+    </div>
+    <div class="modal-body">
+      <span class="modal-cat" id="modalCat"></span>
+      <h3 class="modal-title" id="modalTitle"></h3>
+      <p class="modal-story" id="modalStory"></p>
+    </div>
+  </div>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

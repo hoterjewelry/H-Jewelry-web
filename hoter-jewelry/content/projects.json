@@ -1,0 +1,112 @@
+[
+  {
+    "id": "emerald-drop-earrings",
+    "category": "earrings",
+    "image": "images/earrings/emerald-drop-earrings.jpg",
+    "date": "2026-05-10",
+    "title": { "en": "Emerald Drop Earrings", "he": "עגילי אבן אזמרגד" },
+    "story": {
+      "en": "Add a short story about this piece here: the stone, the client's request, or what made it interesting to make.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התכשיט: האבן, בקשת הלקוח, או מה שהפך את היצירה למעניינת."
+    }
+  },
+  {
+    "id": "gold-hoop-earrings",
+    "category": "earrings",
+    "image": "images/earrings/gold-hoop-earrings.jpg",
+    "date": "2026-04-22",
+    "title": { "en": "Gold Hoop Earrings", "he": "עגילי חישוק זהב" },
+    "story": {
+      "en": "Add a short story about this piece here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התכשיט."
+    }
+  },
+  {
+    "id": "pearl-pendant-necklace",
+    "category": "necklaces",
+    "image": "images/necklaces/pearl-pendant-necklace.jpg",
+    "date": "2026-04-02",
+    "title": { "en": "Pearl Pendant Necklace", "he": "שרשרת תליון פנינה" },
+    "story": {
+      "en": "Add a short story about this piece here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התכשיט."
+    }
+  },
+  {
+    "id": "layered-gold-chain",
+    "category": "necklaces",
+    "image": "images/necklaces/layered-gold-chain.jpg",
+    "date": "2026-03-18",
+    "title": { "en": "Layered Gold Chain", "he": "שרשרת זהב רב-שכבתית" },
+    "story": {
+      "en": "Add a short story about this piece here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התכשיט."
+    }
+  },
+  {
+    "id": "sapphire-solitaire-ring",
+    "category": "rings",
+    "image": "images/rings/sapphire-solitaire-ring.jpg",
+    "date": "2026-03-05",
+    "title": { "en": "Sapphire Solitaire Ring", "he": "טבעת ספיר יחיד" },
+    "story": {
+      "en": "Add a short story about this piece here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התכשיט."
+    }
+  },
+  {
+    "id": "engraved-wedding-band",
+    "category": "rings",
+    "image": "images/rings/engraved-wedding-band.jpg",
+    "date": "2026-02-14",
+    "title": { "en": "Engraved Wedding Band", "he": "טבעת נישואין חרוטה" },
+    "story": {
+      "en": "Add a short story about this piece here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התכשיט."
+    }
+  },
+  {
+    "id": "clasp-repair",
+    "category": "fixing",
+    "image": "images/fixing/clasp-repair.jpg",
+    "date": "2026-02-01",
+    "title": { "en": "Clasp Repair", "he": "תיקון סוגר" },
+    "story": {
+      "en": "Add a short story about this repair here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התיקון."
+    }
+  },
+  {
+    "id": "ring-resizing",
+    "category": "fixing",
+    "image": "images/fixing/ring-resizing.jpg",
+    "date": "2026-01-20",
+    "title": { "en": "Ring Resizing", "he": "שינוי מידת טבעת" },
+    "story": {
+      "en": "Add a short story about this repair here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על התיקון."
+    }
+  },
+  {
+    "id": "antique-candlestick-restoration",
+    "category": "silver",
+    "image": "images/silver/antique-candlestick-restoration.jpg",
+    "date": "2026-01-08",
+    "title": { "en": "Antique Candlestick Restoration", "he": "שיקום פמוט עתיק" },
+    "story": {
+      "en": "Add a short story about this restoration here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על השיקום."
+    }
+  },
+  {
+    "id": "silver-tray-polishing",
+    "category": "silver",
+    "image": "images/silver/silver-tray-polishing.jpg",
+    "date": "2025-12-19",
+    "title": { "en": "Silver Tray Polishing", "he": "הברקת מגש כסף" },
+    "story": {
+      "en": "Add a short story about this restoration here.",
+      "he": "כאן אפשר להוסיף סיפור קצר על השיקום."
+    }
+  }
+]
